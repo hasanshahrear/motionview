@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  @apply flex justify-center before:content-[''] before:absolute md:before:bottom-[-1rem] lg:before:bottom-[-1rem] xl:before:bottom-[-1rem] before:h-0.5 before:w-4 before:bg-black;
+}
+
+.menu-class {
+  @apply xl:text-xl font-semibold md:mr-[50px] xl:mr-[85px] last-of-type:mr-0 relative;
+}
